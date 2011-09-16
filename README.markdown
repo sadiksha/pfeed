@@ -95,7 +95,7 @@ What if I give you a generalized information model which will allow you to creat
 You will also have to install [inflectionist](https://github.com/parolkar/inflectionist) first
 <pre>
 <code>
-  $ rails plugin install git://github.com/parolkar/inflectionist.git
+ $ rails plugin install git://github.com/parolkar/inflectionist.git
 </code>
 </pre>
 
