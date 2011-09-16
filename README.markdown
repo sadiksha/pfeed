@@ -94,7 +94,8 @@ What if I give you a generalized information model which will allow you to creat
 
 <pre>
 <code>
- $ rails plugin install git://github.com/sadiksha/pfeed.git # or use script/plugin for older version of rails previously it was git://github.com/parolkar/pfeed.git
+ $ rails plugin install git://github.com/sadiksha/pfeed.git # or use script/plugin for older version of rails
+                                                            # previously it was git://github.com/parolkar/pfeed.git for ActiveRecord
  $ rake pfeed:setup
 </code>
 </pre>
