@@ -122,7 +122,7 @@ class PfeedItem
     if self.data[:config]
       possible_attributes = self.data[:config][:identifications] + possible_attributes if self.data[:config][:identifications] && self.data[:config][:identifications].is_a?(Array)
     end
-    matched_name = ar_obj.attribute_names & possible_attributes # intersection of two sets
+    matched_name = ar_obj.fields.keys & possible_attributes # intersection of two sets
 
     identi = nil
     matched_name.each do |attribute|
