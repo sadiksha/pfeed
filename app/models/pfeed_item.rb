@@ -118,8 +118,10 @@ class PfeedItem
     end
 
     possible_attributes = ["username","login","name","company_name","first_name","last_name","login_name","login_id","given_name","nick_name","nick","short_name"]
-    
-    possible_attributes = self.data[:config][:identifications] + possible_attributes if self.data[:config] && self.data[:config][:identifications] && self.data[:config][:identifications].is_a?(Array)
+
+    if self.data[:config]
+      possible_attributes = self.data[:config][:identifications] + possible_attributes if self.data[:config][:identifications] && self.data[:config][:identifications].is_a?(Array)
+    end
     matched_name = ar_obj.attribute_names & possible_attributes # intersection of two sets
 
     identi = nil
