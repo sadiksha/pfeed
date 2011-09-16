@@ -92,13 +92,20 @@ What if I give you a generalized information model which will allow you to creat
 
 ## Installation
 
+You will also have to install [inflectionist](https://github.com/parolkar/inflectionist) first
 <pre>
 <code>
+    $ rails plugin install git://github.com/parolkar/inflectionist.git
+</code>
+
+<code>
  $ rails plugin install git://github.com/sadiksha/pfeed.git # or use script/plugin for older version of rails
-                                                            # previously it was git://github.com/parolkar/pfeed.git for ActiveRecord
+                                                            # originally it was git://github.com/parolkar/pfeed.git for ActiveRecord
  $ rake pfeed:setup
 </code>
 </pre>
+
+
 
 
 
