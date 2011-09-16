@@ -6,7 +6,7 @@ def pfeed
   PfeedItem.find_by_originator_id(topic.id)
 end
 
-class Emitter < ActiveRecord::Base
+class Emitter #< ActiveRecord::Base
   def if_false_ping; end
   def if_false; false end
   def if_true_ping; end
