@@ -95,9 +95,13 @@ What if I give you a generalized information model which will allow you to creat
 You will also have to install [inflectionist](https://github.com/parolkar/inflectionist) first
 <pre>
 <code>
-    $ rails plugin install git://github.com/parolkar/inflectionist.git
+  $ rails plugin install git://github.com/parolkar/inflectionist.git
 </code>
+</pre>
 
+Then pfeed plugin for mongoid
+
+<pre>
 <code>
  $ rails plugin install git://github.com/sadiksha/pfeed.git # or use script/plugin for older version of rails
                                                             # originally it was git://github.com/parolkar/pfeed.git for ActiveRecord
