@@ -113,4 +113,5 @@ Then pfeed plugin for mongoid
 
 
 
-Copyright (c) 2009 [Abhishek Parolkar] abhishek[at]parolkar.com , released under the MIT license
+Copyright (c) 2009 [Abhishek Parolkar] abhishek[at]parolkar.com for pfeed, released under the MIT license
+Copyright (c) 2015 Sadiksha Gautam for pfeed for Mongoid
